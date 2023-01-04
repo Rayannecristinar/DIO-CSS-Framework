@@ -1,0 +1,1018 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Saloon Fruta Estrelar</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous"/>
+    <link rel="stylesheet" href="assets/css/styles.css" />
+  </head>
+  <body>
+    <!-- Navbar-->
+    <nav class="navbar navbar-menu navbar-expand-lg navbar-dark fixed-top">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">
+          <img src="assets/images/SDV_logo.png" alt="Logotipo da cafetaria do gus"/>
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Início</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#about">Sobre Nós</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#menu">Cardápio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#local">Local</a>
+            </li>
+          </ul>
+          <form class="d-flex" role="search">
+            <input class="form-control me-2" type="search" placeholder="Pesquisar" aria-label="Search"/>
+            <button class="btn btn-primary" type="submit">Buscar</button>
+          </form>
+        </div>
+      </div>
+    </nav>
+    <main>
+      <!-- Carousel-->
+      <header id="carousel-plates" class="carousel slide mt-5" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carousel-plates" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1">
+          </button>
+          <button type="button" data-bs-target="#carousel-plates" data-bs-slide-to="1" aria-label="Slide 2">
+          </button>
+          <button type="button" data-bs-target="#carousel-plates" data-bs-slide-to="2" aria-label="Slide 3">
+          </button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active" data-bs-interval="2000">
+            <img src="assets/images/300px-Saloon_PT.png" class="d-block w-100" alt="frente do sallon"/>
+          </div>
+          <div class="carousel-item" data-bs-interval="2000">
+            <img src="https://staticdelivery.nexusmods.com/mods/1303/images/7213/7213-1606707074-2071774891.png" class="d-block w-100" alt="dentro do sallon"/>
+          </div>
+          <div class="carousel-item">
+            <img src="https://staticdelivery.nexusmods.com/mods/1303/images/thumbnails/14519/14519-1668793406-601737454.png" class="d-block w-100" alt="detalhe do bar"/>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carousel-plates" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carousel-plates" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </header>
+      <!-- Quote  falta arrumar a tag cite-->
+      <figure class="quote_phase">
+        <blockquote class="blockquote">
+          <h3>
+            É um lugar de encontro para muitos aldeões, e possui uma diversidade de entretenimentos.
+          </h3>
+        </blockquote>
+      </figure>
+      <!-- About Cards-->
+      <section id="about" class="container text-center mt-5">
+        <div class="row">
+          <div class="col-lg-6 col-md-12">
+            <div class="card mb-3 border-info">
+              <div class="row g-0 align-items-center">
+                <div class="col-md-4">
+                  <img src="https://stardewvalleywiki.com/mediawiki/images/5/52/Gus.png" class="img-fluid rounded-start" alt="Dono do saloon"/>
+                </div>
+                <div class="col-md-8">
+                  <div class="card-body">
+                    <h5 class="card-title">Gus</h5>
+                    <h6 class="card-subtitle text-muted mb-3">
+                      Gus é um aldeão que mora e trabalha no Salão na Vila Pelicanos. Ele é dono do estabelecimento.
+                    </h6>
+                    <p class="card-text">
+                      “Pam e Clint vêm para o salão quase todas as noites. Eu provavelmente perderia o negócio se eles parassem de vir. Portanto, certifique-se de que você não irá afastá-los!”
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-6 col-md-12">
+            <div class="card mb-3 border-info">
+              <div class="row g-0 align-items-center">
+                <div class="col-md-4">
+                  <img src="https://stardewvalleywiki.com/mediawiki/images/2/28/Emily.png" class="img-fluid rounded-start" alt="ajudante do gus"/>
+                </div>
+                <div class="col-md-8">
+                  <div class="card-body">
+                    <h5 class="card-title">Emily</h5>
+                    <h6 class="card-subtitle text-muted mb-3">
+                      Emily é uma aldeã que mora na Vila Pelicanos. Ela trabalha geralmente à tarde no Saloon Fruta Estrelar começando por volta das 4:00 PM.
+                    </h6>
+                    <p class="card-text">
+                      “Eu só estou trabalhando com o Gus para sobreviver... mas a minha verdadeira paixão é alfaiataria. Eu fiz essas roupas a partir do zero.”
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!--Menu-->
+      <section id="menu" class="container mt-5 mb-5">
+        <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
+          <li class="nav-item" role="presentation">
+            <button class="nav-link active" id="menu-plates-tab" data-bs-toggle="pill" data-bs-target="#menu-plates" type="button" role="tab" aria-controls="menu-plates" aria-selected="true">
+              Pratos
+            </button>
+          </li>
+          <li class="nav-item" role="presentation">
+            <button class="nav-link" id="menu-drinks-tab" data-bs-toggle="pill" data-bs-target="#menu-drinks" type="button" role="tab" aria-controls="menu-drinks" aria-selected="false">
+              Bebidas
+            </button>
+          </li>
+          <li class="nav-item" role="presentation">
+            <button class="nav-link" id="menu-rotating-tab" data-bs-toggle="pill" data-bs-target="#menu-rotating" type="button" role="tab" aria-controls="menu-rotating" aria-selected="false">
+              Menu Rotativo
+            </button>
+          </li>
+          <li class="nav-item text-center role="presentation">
+            <button class="nav-link" id="menu-revenues-tab" data-bs-toggle="pill" data-bs-target="#menu-revenues" type="button" role="tab" aria-controls="menu-revenues" aria-selected="false">
+              Receitas
+            </button>
+          </li>
+        </ul>
+        <!--Cards -->
+        <div class="tab-content" id="plates-tabContent">
+          <!--Cards plates-->
+          <div class="tab-pane fade show active" id="menu-plates" role="tabpanel" aria-labelledby="menu-plates-tab" tabindex="0">
+            <div class="row row-cols-1 row-cols-md-3 g-4 align-items-center" >
+              <div class="col card-menu" >
+                <div class="card h-50  border-primary">
+                  <img src="https://stardewvalleywiki.com/mediawiki/images/0/08/Spaghetti.png" class="card-img-top h-50 " alt="espaguete" />
+                  <div class="card-body">
+                    <h5 class="card-title">Espaguete</h5>
+                    <p class="card-text">Um clássico.</p>
+                  </div>
+                  <div class="card-footer text-bg-primary">
+                    <small class="text-warning">
+                      <img src="https://stardewvalleywiki.com/mediawiki/images/thumb/1/10/Gold.png/18px-Gold.png" alt="gold"/>
+                      240 ouros.
+                    </small>
+                  </div>
+                </div>
+              </div>
+              <div class="col card-menu" >
+                <div class="card h-50 border-primary">
+                  <img src="https://stardewvalleywiki.com/mediawiki/images/e/e1/Bread.png" class="card-img-top h-50 " alt="pão" />
+                  <div class="card-body">
+                    <h5 class="card-title">Pão</h5>
+                    <p class="card-text">Uma baguete crocante.</p>
+                  </div>
+                  <div class="card-footer text-bg-primary">
+                    <small class="text-warning">
+                      <img src="https://stardewvalleywiki.com/mediawiki/images/thumb/1/10/Gold.png/18px-Gold.png" alt="gold"/>
+                      120 ouros.
+                    </small>
+                  </div>
+                </div>
+              </div>
+              <div class="col card-menu">
+                <div class="card h-50 border-primary">
+                  <img src="https://stardewvalleywiki.com/mediawiki/images/f/f4/Pizza.png" class="card-img-top h-50 " alt="pizza" />
+                  <div class="card-body">
+                    <h5 class="card-title">Pizza</h5>
+                    <p class="card-text">Popular pelos motivos certos.</p>
+                  </div>
+                  <div class="card-footer text-bg-primary">
+                    <small class="text-warning">
+                      <img src="https://stardewvalleywiki.com/mediawiki/images/thumb/1/10/Gold.png/18px-Gold.png"alt="gold"/>
+                      600 ouros.
+                    </small>
+                  </div>
+                </div>
+              </div>
+              <div class="col card-menu" >
+                <div class="card h-50 border-primary">
+                  <img src="https://stardewvalleywiki.com/mediawiki/images/7/7e/Salad.png" class="card-img-top h-50 " alt="salada" />
+                  <div class="card-body">
+                    <h5 class="card-title">Salada</h5>
+                    <p class="card-text">Uma saudável salada de jardim.</p>
+                  </div>
+                  <div class="card-footer text-bg-primary">
+                    <small class="text-warning">
+                      <img src="https://stardewvalleywiki.com/mediawiki/images/thumb/1/10/Gold.png/18px-Gold.png" alt="gold"/>
+                      220 ouros.
+                    </small>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!--Cards drinks-->
+          <div class="tab-pane fade" id="menu-drinks" role="tabpanel" aria-labelledby="menu-drinks-tab" tabindex="0">
+            <div class="row row-cols-1 row-cols-md-3 g-4 align-items-center">
+              <div class="col card-menu">
+                <div class="card h-50  border-primary">
+                  <img src="https://stardewvalleywiki.com/mediawiki/images/b/b3/Beer.png" class="card-img-top h-50" alt="cerveja"/>
+                  <div class="card-body">
+                    <h5 class="card-title">Cerveja</h5>
+                    <p class="card-text">Beba com moderação.</p>
+                  </div>
+                  <div class="card-footer text-bg-primary">
+                    <small class="text-warning">
+                      <img src="https://stardewvalleywiki.com/mediawiki/images/thumb/1/10/Gold.png/18px-Gold.png" alt="gold"/>
+                      200 ouros.
+                    </small>
+                  </div>
+                </div>
+              </div>
+              <div class="col card-menu">
+                <div class="card h-50  border-primary">
+                  <img src="https://stardewvalleywiki.com/mediawiki/images/e/e9/Coffee.png" class="card-img-top h-50" alt="cafe" />
+                  <div class="card-body">
+                    <h5 class="card-title">Café</h5>
+                    <p class="card-text">Possui um cheiro delicioso. Com certeza vai lhe dar energia extra.</p>
+                  </div>
+                  <div class="card-footer text-bg-primary">
+                    <small class="text-warning">
+                      <img src="https://stardewvalleywiki.com/mediawiki/images/thumb/1/10/Gold.png/18px-Gold.png" alt="gold"/>
+                      150 ouros.
+                    </small>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!--Cards rotativo-->
+          <div class="tab-pane fade" id="menu-rotating" role="tabpanel" aria-labelledby="menu-rotating-tab" tabindex="0">
+            <div class="row row-cols-1 row-cols-md-3 g-4 align-items-center">
+              <div class="col card-menu">
+                <div class="card h-50  border-primary">
+                  <img src="https://stardewvalleywiki.com/mediawiki/images/5/53/Crispy_Bass.png" class="card-img-top h-50" alt="Achigã Crocante"/>
+                  <div class="card-body">
+                    <h5 class="card-title">Achigã Crocante</h5>
+                    <p class="card-text">O acompanhamento com pão está perfeito!</p>
+                  </div>
+                  <div class="card-footer text-bg-primary">
+                    <small class="text-warning">
+                      <img src="https://stardewvalleywiki.com/mediawiki/images/thumb/1/10/Gold.png/18px-Gold.png" alt="gold"/>
+                      300 ouros.
+                    </small>
+                  </div>
+                </div>
+              </div>
+              <div class="col card-menu">
+                <div class="card h-50  border-primary">
+                  <img src="https://stardewvalleywiki.com/mediawiki/images/5/5d/Lucky_Lunch.png" class="card-img-top h-50" alt="Almoço da sorte" />
+                  <div class="card-body">
+                    <h5 class="card-title">Almoço da sorte</h5>
+                    <p class="card-text">Uma pequena refeição.</p>
+                  </div>
+                  <div class="card-footer text-bg-primary">
+                    <small class="text-warning">
+                      <img src="https://stardewvalleywiki.com/mediawiki/images/thumb/1/10/Gold.png/18px-Gold.png" alt="gold"/>
+                      500 ouros.
+                    </small>
+                  </div>
+                </div>
+              </div>
+              <div class="col card-menu">
+                <div class="card h-50  border-primary">
+                  <img src="https://stardewvalleywiki.com/mediawiki/images/7/70/Cookie.png" class="card-img-top h-50" alt="Biscoitos" />
+                  <div class="card-body">
+                    <h5 class="card-title">Biscoitos</h5>
+                    <p class="card-text">Bem puxento.</p>
+                  </div>
+                  <div class="card-footer text-bg-primary">
+                    <small class="text-warning">
+                      <img src="https://stardewvalleywiki.com/mediawiki/images/thumb/1/10/Gold.png/18px-Gold.png" alt="gold"/>
+                      280 ouros.
+                    </small>
+                  </div>
+                </div>
+              </div>
+              <div class="col card-menu">
+                <div class="card h-50  border-primary">
+                  <img src="https://stardewvalleywiki.com/mediawiki/images/8/87/Chocolate_Cake.png" class="card-img-top h-50" alt="Bolo de chocolate" />
+                  <div class="card-body">
+                    <h5 class="card-title">Bolo de chocolate</h5>
+                    <p class="card-text">Rico e úmido, com uma camada bem grossa de glacê.</p>
+                  </div>
+                  <div class="card-footer text-bg-primary">
+                    <small class="text-warning">
+                      <img src="https://stardewvalleywiki.com/mediawiki/images/thumb/1/10/Gold.png/18px-Gold.png" alt="gold"/>
+                      400 ouros.
+                    </small>
+                  </div>
+                </div>
+              </div>
+              <div class="col card-menu">
+                <div class="card h-50  border-primary">
+                  <img src="https://stardewvalleywiki.com/mediawiki/images/3/32/Pink_Cake.png" class="card-img-top h-50" alt="Bolo rosa" />
+                  <div class="card-body">
+                    <h5 class="card-title">Bolo rosa</h5>
+                    <p class="card-text">Tem pequenos doces de coração em cima.</p>
+                  </div>
+                  <div class="card-footer text-bg-primary">
+                    <small class="text-warning">
+                      <img src="https://stardewvalleywiki.com/mediawiki/images/thumb/1/10/Gold.png/18px-Gold.png" alt="gold"/>
+                      960 ouros.
+                    </small>
+                  </div>
+                </div>
+              </div>
+              <div class="col card-menu">
+                <div class="card h-50  border-primary">
+                  <img src="https://stardewvalleywiki.com/mediawiki/images/3/3d/Complete_Breakfast.png" class="card-img-top h-50" alt="Café da manhã completo" />
+                  <div class="card-body">
+                    <h5 class="card-title">Café da manhã completo</h5>
+                    <p class="card-text">Dá energia para conquistar o mundo!</p>
+                  </div>
+                  <div class="card-footer text-bg-primary">
+                    <small class="text-warning">
+                      <img src="https://stardewvalleywiki.com/mediawiki/images/thumb/1/10/Gold.png/18px-Gold.png" alt="gold"/>
+                      700 ouros.
+                    </small>
+                  </div>
+                </div>
+              </div>
+              <div class="col card-menu">
+                <div class="card h-50  border-primary">
+                  <img src="https://stardewvalleywiki.com/mediawiki/images/c/cc/Carp_Surprise.png" class="card-img-top h-50" alt="Carpa-surpresa" />
+                  <div class="card-body">
+                    <h5 class="card-title">Carpa-surpresa</h5>
+                    <p class="card-text">É insossa e oleosa.</p>
+                  </div>
+                  <div class="card-footer text-bg-primary">
+                    <small class="text-warning">
+                      <img src="https://stardewvalleywiki.com/mediawiki/images/thumb/1/10/Gold.png/18px-Gold.png" alt="gold"/>
+                      300 ouros.
+                    </small>
+                  </div>
+                </div>
+              </div>
+              <div class="col card-menu">
+                <div class="card h-50  border-primary">
+                  <img src="https://stardewvalleywiki.com/mediawiki/images/4/4a/Fried_Mushroom.png" class="card-img-top h-50" alt="Cogumelo frito" />
+                  <div class="card-body">
+                    <h5 class="card-title">Cogumelo frito</h5>
+                    <p class="card-text">Terroso e aromático.</p>
+                  </div>
+                  <div class="card-footer text-bg-primary">
+                    <small class="text-warning">
+                      <img src="https://stardewvalleywiki.com/mediawiki/images/thumb/1/10/Gold.png/18px-Gold.png" alt="gold"/>
+                      400 ouros.
+                    </small>
+                  </div>
+                </div>
+              </div>
+              <div class="col card-menu">
+                <div class="card h-50  border-primary">
+                  <img src="https://stardewvalleywiki.com/mediawiki/images/6/6e/Cheese_Cauliflower.png" class="card-img-top h-50" alt="Couve-flor com queijo" />
+                  <div class="card-body">
+                    <h5 class="card-title">Couve-flor com queijo</h5>
+                    <p class="card-text">Um cheiro maravilhoso!</p>
+                  </div>
+                  <div class="card-footer text-bg-primary">
+                    <small class="text-warning">
+                      <img src="https://stardewvalleywiki.com/mediawiki/images/thumb/1/10/Gold.png/18px-Gold.png" alt="gold"/>
+                      600 ouros.
+                    </small>
+                  </div>
+                </div>
+              </div>
+              <div class="col card-menu">
+                <div class="card h-50  border-primary">
+                  <img src="https://stardewvalleywiki.com/mediawiki/images/8/84/Fried_Eel.png" class="card-img-top h-50" alt="Enguia frita" />
+                  <div class="card-body">
+                    <h5 class="card-title">Enguia frita</h5>
+                    <p class="card-text">Oleosa, mas cheia de sabor.</p>
+                  </div>
+                  <div class="card-footer text-bg-primary">
+                    <small class="text-warning">
+                      <img src="https://stardewvalleywiki.com/mediawiki/images/thumb/1/10/Gold.png/18px-Gold.png" alt="gold"/>
+                      240 ouros.
+                    </small>
+                  </div>
+                </div>
+              </div>
+              <div class="col card-menu">
+                <div class="card h-50  border-primary">
+                  <img src="https://stardewvalleywiki.com/mediawiki/images/f/f2/Spicy_Eel.png" class="card-img-top h-50" alt="Enguia picante" />
+                  <div class="card-body">
+                    <h5 class="card-title">Enguia picante</h5>
+                    <p class="card-text">Como é picante! Cuidado.</p>
+                  </div>
+                  <div class="card-footer text-bg-primary">
+                    <small class="text-warning">
+                      <img src="https://stardewvalleywiki.com/mediawiki/images/thumb/1/10/Gold.png/18px-Gold.png" alt="gold"/>
+                      350 ouros.
+                    </small>
+                  </div>
+                </div>
+              </div>
+              <div class="col card-menu">
+                <div class="card h-50  border-primary">
+                  <img src="https://stardewvalleywiki.com/mediawiki/images/0/08/Pepper_Poppers.png" class="card-img-top h-50" alt="Enroladinhos de pimenta" />
+                  <div class="card-body">
+                    <h5 class="card-title">Enroladinhos de pimenta</h5>
+                    <p class="card-text">Enroladinhos apimentados cheios de queijo.</p>
+                  </div>
+                  <div class="card-footer text-bg-primary">
+                    <small class="text-warning">
+                      <img src="https://stardewvalleywiki.com/mediawiki/images/thumb/1/10/Gold.png/18px-Gold.png" alt="gold"/>
+                      400 ouros.
+                    </small>
+                  </div>
+                </div>
+              </div>
+              <div class="col card-menu">
+                <div class="card h-50  border-primary">
+                  <img src="https://stardewvalleywiki.com/mediawiki/images/3/30/Glazed_Yams.png" class="card-img-top h-50" alt="Inhames com cobertura" />
+                  <div class="card-body">
+                    <h5 class="card-title">Inhames com cobertura</h5>
+                    <p class="card-text">Doces e saborosos... O açúcar dá um toque de caramelo.</p>
+                  </div>
+                  <div class="card-footer text-bg-primary">
+                    <small class="text-warning">
+                      <img src="https://stardewvalleywiki.com/mediawiki/images/thumb/1/10/Gold.png/18px-Gold.png" alt="gold"/>
+                      400 ouros.
+                    </small>
+                  </div>
+                </div>
+              </div>
+              <div class="col card-menu">
+                <div class="card h-50  border-primary">
+                  <img src="https://stardewvalleywiki.com/mediawiki/images/8/8b/Salmon_Dinner.png" class="card-img-top h-50" alt="Jantar de salmão" />
+                  <div class="card-body">
+                    <h5 class="card-title">Jantar de salmão</h5>
+                    <p class="card-text">Os biscoitinhos de limão o tornam especial.</p>
+                  </div>
+                  <div class="card-footer text-bg-primary">
+                    <small class="text-warning">
+                      <img src="https://stardewvalleywiki.com/mediawiki/images/thumb/1/10/Gold.png/18px-Gold.png" alt="gold"/>
+                      600 ouros.
+                    </small>
+                  </div>
+                </div>
+              </div>
+              <div class="col card-menu">
+                <div class="card h-50  border-primary">
+                  <img src="https://stardewvalleywiki.com/mediawiki/images/2/25/Fried_Calamari.png" class="card-img-top h-50" alt="Lula frita" />
+                  <div class="card-body">
+                    <h5 class="card-title">Lula frita</h5>
+                    <p class="card-text">Que puxenta!</p>
+                  </div>
+                  <div class="card-footer text-bg-primary">
+                    <small class="text-warning">
+                      <img src="https://stardewvalleywiki.com/mediawiki/images/thumb/1/10/Gold.png/18px-Gold.png" alt="gold"/>
+                      300 ouros.
+                    </small>
+                  </div>
+                </div>
+              </div>
+              <div class="col card-menu">
+                <div class="card h-50  border-primary">
+                  <img src="https://stardewvalleywiki.com/mediawiki/images/0/0a/Vegetable_Medley.png" class="card-img-top h-50" alt="Mexido de legumes" />
+                  <div class="card-body">
+                    <h5 class="card-title">Mexido de legumes</h5>
+                    <p class="card-text">Muito nutritivo.</p>
+                  </div>
+                  <div class="card-footer text-bg-primary">
+                    <small class="text-warning">
+                      <img src="https://stardewvalleywiki.com/mediawiki/images/thumb/1/10/Gold.png/18px-Gold.png" alt="gold"/>
+                      240 ouros.
+                    </small>
+                  </div>
+                </div>
+              </div>
+              <div class="col card-menu">
+                <div class="card h-50  border-primary">
+                  <img src="https://stardewvalleywiki.com/mediawiki/images/0/0b/Cranberry_Sauce.png" class="card-img-top h-50" alt="Molho de oxicoco" />
+                  <div class="card-body">
+                    <h5 class="card-title">Molho de oxicoco</h5>
+                    <p class="card-text">Uma refeição festiva.</p>
+                  </div>
+                  <div class="card-footer text-bg-primary">
+                    <small class="text-warning">
+                      <img src="https://stardewvalleywiki.com/mediawiki/images/thumb/1/10/Gold.png/18px-Gold.png" alt="gold"/>
+                      240 ouros.
+                    </small>
+                  </div>
+                </div>
+              </div>
+              <div class="col card-menu">
+                <div class="card h-50  border-primary">
+                  <img src="https://stardewvalleywiki.com/mediawiki/images/1/12/Omelet.png" class="card-img-top h-50" alt="Omelete" />
+                  <div class="card-body">
+                    <h5 class="card-title">Omelete</h5>
+                    <p class="card-text">Superfofinha.</p>
+                  </div>
+                  <div class="card-footer text-bg-primary">
+                    <small class="text-warning">
+                      <img src="https://stardewvalleywiki.com/mediawiki/images/thumb/1/10/Gold.png/18px-Gold.png" alt="gold"/>
+                      250 ouros.
+                    </small>
+                  </div>
+                </div>
+              </div>
+              <div class="col card-menu">
+                <div class="card h-50  border-primary">
+                  <img src="https://stardewvalleywiki.com/mediawiki/images/1/18/Fried_Egg.png" class="card-img-top h-50" alt="Ovo frito" />
+                  <div class="card-body">
+                    <h5 class="card-title">Ovo frito</h5>
+                    <p class="card-text">Lado amarelinho para cima.</p>
+                  </div>
+                  <div class="card-footer text-bg-primary">
+                    <small class="text-warning">
+                      <img src="https://stardewvalleywiki.com/mediawiki/images/thumb/1/10/Gold.png/18px-Gold.png" alt="gold"/>
+                      70 ouros.
+                    </small>
+                  </div>
+                </div>
+              </div>
+              <div class="col card-menu">
+                <div class="card h-50  border-primary">
+                  <img src="https://stardewvalleywiki.com/mediawiki/images/6/6b/Pancakes.png" class="card-img-top h-50" alt="Panquecas" />
+                  <div class="card-body">
+                    <h5 class="card-title">Panquecas</h5>
+                    <p class="card-text">Uma pilha dupla de panquecas fofinhas e macias.</p>
+                  </div>
+                  <div class="card-footer text-bg-primary">
+                    <small class="text-warning">
+                      <img src="https://stardewvalleywiki.com/mediawiki/images/thumb/1/10/Gold.png/18px-Gold.png" alt="gold"/>
+                      160 ouros.
+                    </small>
+                  </div>
+                </div>
+              </div>
+              <div class="col card-menu">
+                <div class="card h-50  border-primary">
+                  <img src="https://stardewvalleywiki.com/mediawiki/images/5/5e/Strange_Bun.png" class="card-img-top h-50" alt="Pão estranho" />
+                  <div class="card-body">
+                    <h5 class="card-title">Pão estranho</h5>
+                    <p class="card-text">O que será que tem dentro?</p>
+                  </div>
+                  <div class="card-footer text-bg-primary">
+                    <small class="text-warning">
+                      <img src="https://stardewvalleywiki.com/mediawiki/images/thumb/1/10/Gold.png/18px-Gold.png" alt="gold"/>
+                      450 ouros.
+                    </small>
+                  </div>
+                </div>
+              </div>
+              <div class="col card-menu">
+                <div class="card h-50  border-primary">
+                  <img src="https://stardewvalleywiki.com/mediawiki/images/7/73/Eggplant_Parmesan.png" class="card-img-top h-50" alt="Parmesão com berinjela" />
+                  <div class="card-body">
+                    <h5 class="card-title">Parmesão com berinjela</h5>
+                    <p class="card-text">Picante, cheia de queijo, e maravilhosa.</p>
+                  </div>
+                  <div class="card-footer text-bg-primary">
+                    <small class="text-warning">
+                      <img src="https://stardewvalleywiki.com/mediawiki/images/thumb/1/10/Gold.png/18px-Gold.png" alt="gold"/>
+                      400 ouros.
+                    </small>
+                  </div>
+                </div>
+              </div>
+              <div class="col card-menu">
+                <div class="card h-50  border-primary">
+                  <img src="https://stardewvalleywiki.com/mediawiki/images/9/94/Baked_Fish.png" class="card-img-top h-50" alt="Peixe cozido" />
+                  <div class="card-body">
+                    <h5 class="card-title">Peixe cozido</h5>
+                    <p class="card-text">Peixe cozido em uma cama de ervas.</p>
+                  </div>
+                  <div class="card-footer text-bg-primary">
+                    <small class="text-warning">
+                      <img src="https://stardewvalleywiki.com/mediawiki/images/thumb/1/10/Gold.png/18px-Gold.png" alt="gold"/>
+                      200 ouros.
+                    </small>
+                  </div>
+                </div>
+              </div>
+              <div class="col card-menu">
+                <div class="card h-50  border-primary">
+                  <img src="https://stardewvalleywiki.com/mediawiki/images/2/24/Bean_Hotpot.png" class="card-img-top h-50" alt="Pote de feijão" />
+                  <div class="card-body">
+                    <h5 class="card-title">Pote de feijão</h5>
+                    <p class="card-text">É bem saudável.</p>
+                  </div>
+                  <div class="card-footer text-bg-primary">
+                    <small class="text-warning">
+                      <img src="https://stardewvalleywiki.com/mediawiki/images/thumb/1/10/Gold.png/18px-Gold.png" alt="gold"/>
+                      200 ouros.
+                    </small>
+                  </div>
+                </div>
+              </div>
+              <div class="col card-menu">
+                <div class="card h-50  border-primary">
+                  <img src="https://stardewvalleywiki.com/mediawiki/images/f/f4/Autumn%27s_Bounty.png" class="card-img-top h-50" alt="Prato de outono" />
+                  <div class="card-body">
+                    <h5 class="card-title">Prato de outono</h5>
+                    <p class="card-text">Uma amostra da estação.</p>
+                  </div>
+                  <div class="card-footer text-bg-primary">
+                    <small class="text-warning">
+                      <img src="https://stardewvalleywiki.com/mediawiki/images/thumb/1/10/Gold.png/18px-Gold.png" alt="gold"/>
+                      700 ouros.
+                    </small>
+                  </div>
+                </div>
+              </div>
+              <div class="col card-menu">
+                <div class="card h-50  border-primary">
+                  <img src="https://stardewvalleywiki.com/mediawiki/images/4/45/Red_Plate.png" class="card-img-top h-50" alt="Prato vermelho" />
+                  <div class="card-body">
+                    <h5 class="card-title">Prato vermelho</h5>
+                    <p class="card-text">Cheio de antioxidantes.</p>
+                  </div>
+                  <div class="card-footer text-bg-primary">
+                    <small class="text-warning">
+                      <img src="https://stardewvalleywiki.com/mediawiki/images/thumb/1/10/Gold.png/18px-Gold.png" alt="gold"/>
+                      800 ouros.
+                    </small>
+                  </div>
+                </div>
+              </div>
+              <div class="col card-menu">
+                <div class="card h-50  border-primary">
+                  <img src="https://stardewvalleywiki.com/mediawiki/images/e/ec/Rice_Pudding.png" class="card-img-top h-50" alt="Pudim de arroz" />
+                  <div class="card-body">
+                    <h5 class="card-title">Pudim de arroz</h5>
+                    <p class="card-text">Cremoso, doce, e divertido de comer.</p>
+                  </div>
+                  <div class="card-footer text-bg-primary">
+                    <small class="text-warning">
+                      <img src="https://stardewvalleywiki.com/mediawiki/images/thumb/1/10/Gold.png/18px-Gold.png" alt="gold"/>
+                      520 ouros.
+                    </small>
+                  </div>
+                </div>
+              </div>
+              <div class="col card-menu">
+                <div class="card h-50  border-primary">
+                  <img src="https://stardewvalleywiki.com/mediawiki/images/9/9a/Stuffing.png" class="card-img-top h-50" alt="Recheio" />
+                  <div class="card-body">
+                    <h5 class="card-title">Recheio</h5>
+                    <p class="card-text">Ah... o doce de pão quente e salva.</p>
+                  </div>
+                  <div class="card-footer text-bg-primary">
+                    <small class="text-warning">
+                      <img src="https://stardewvalleywiki.com/mediawiki/images/thumb/1/10/Gold.png/18px-Gold.png" alt="gold"/>
+                      330 ouros.
+                    </small>
+                  </div>
+                </div>
+              </div>
+              <div class="col card-menu">
+                <div class="card h-50  border-primary">
+                  <img src="https://stardewvalleywiki.com/mediawiki/images/b/b6/Maki_Roll.png" class="card-img-top h-50" alt="Rolinhos de arroz" />
+                  <div class="card-body">
+                    <h5 class="card-title">Rolinhos de arroz</h5>
+                    <p class="card-text">Peixe e arroz enrolados em algas.</p>
+                  </div>
+                  <div class="card-footer text-bg-primary">
+                    <small class="text-warning">
+                      <img src="https://stardewvalleywiki.com/mediawiki/images/thumb/1/10/Gold.png/18px-Gold.png" alt="gold"/>
+                      440 ouros.
+                    </small>
+                  </div>
+                </div>
+              </div>
+              <div class="col card-menu">
+                <div class="card h-50  border-primary">
+                  <img src="https://stardewvalleywiki.com/mediawiki/images/4/41/Sashimi.png" class="card-img-top h-50" alt="Sashimi" />
+                  <div class="card-body">
+                    <h5 class="card-title">Sashimi</h5>
+                    <p class="card-text">Peixe cru fatiado em pedaços finos.</p>
+                  </div>
+                  <div class="card-footer text-bg-primary">
+                    <small class="text-warning">
+                      <img src="https://stardewvalleywiki.com/mediawiki/images/thumb/1/10/Gold.png/18px-Gold.png" alt="gold"/>
+                      150 ouros.
+                    </small>
+                  </div>
+                </div>
+              </div>
+              <div class="col card-menu">
+                <div class="card h-50  border-primary">
+                  <img src="https://stardewvalleywiki.com/mediawiki/images/5/59/Pumpkin_Soup.png" class="card-img-top h-50" alt="Sopa de abóbora" />
+                  <div class="card-body">
+                    <h5 class="card-title">Sopa de abóbora</h5>
+                    <p class="card-text">Favorita da estação.</p>
+                  </div>
+                  <div class="card-footer text-bg-primary">
+                    <small class="text-warning">
+                      <img src="https://stardewvalleywiki.com/mediawiki/images/thumb/1/10/Gold.png/18px-Gold.png" alt="gold"/>
+                      600 ouros.
+                    </small>
+                  </div>
+                </div>
+              </div>
+              <div class="col card-menu">
+                <div class="card h-50  border-primary">
+                  <img src="https://stardewvalleywiki.com/mediawiki/images/7/76/Parsnip_Soup.png" class="card-img-top h-50" alt="Sopa de chirívia" />
+                  <div class="card-body">
+                    <h5 class="card-title">Sopa de chirívia</h5>
+                    <p class="card-text">Fresca e com um sabor forte.</p>
+                  </div>
+                  <div class="card-footer text-bg-primary">
+                    <small class="text-warning">
+                      <img src="https://stardewvalleywiki.com/mediawiki/images/thumb/1/10/Gold.png/18px-Gold.png" alt="gold"/>
+                      240 ouros.
+                    </small>
+                  </div>
+                </div>
+              </div>
+              <div class="col card-menu">
+                <div class="card h-50  border-primary">
+                  <img src="https://stardewvalleywiki.com/mediawiki/images/4/48/Trout_Soup.png" class="card-img-top h-50" alt="Sopa de truta" />
+                  <div class="card-body">
+                    <h5 class="card-title">Sopa de truta</h5>
+                    <p class="card-text">Bem salgada.</p>
+                  </div>
+                  <div class="card-footer text-bg-primary">
+                    <small class="text-warning">
+                      <img src="https://stardewvalleywiki.com/mediawiki/images/thumb/1/10/Gold.png/18px-Gold.png" alt="gold"/>
+                      200 ouros.
+                    </small>
+                  </div>
+                </div>
+              </div>
+              <div class="col card-menu">
+                <div class="card h-50  border-primary">
+                  <img src="https://stardewvalleywiki.com/mediawiki/images/3/3b/Tom_Kha_Soup.png" class="card-img-top h-50" alt="Sopa Tom Kha" />
+                  <div class="card-body">
+                    <h5 class="card-title">Sopa Tom Kha</h5>
+                    <p class="card-text">Que sabores incríveis!</p>
+                  </div>
+                  <div class="card-footer text-bg-primary">
+                    <small class="text-warning">
+                      <img src="https://stardewvalleywiki.com/mediawiki/images/thumb/1/10/Gold.png/18px-Gold.png" alt="gold"/>
+                      500 ouros.
+                    </small>
+                  </div>
+                </div>
+              </div>
+              <div class="col card-menu">
+                <div class="card h-50  border-primary">
+                  <img src="https://stardewvalleywiki.com/mediawiki/images/5/5d/Ice_Cream.png" class="card-img-top h-50" alt="Sorvete" />
+                  <div class="card-body">
+                    <h5 class="card-title">Sorvete</h5>
+                    <p class="card-text">Difícil achar quem não gosta disso.</p>
+                  </div>
+                  <div class="card-footer text-bg-primary">
+                    <small class="text-warning">
+                      <img src="https://stardewvalleywiki.com/mediawiki/images/thumb/1/10/Gold.png/18px-Gold.png" alt="gold"/>
+                      240 ouros.
+                    </small>
+                  </div>
+                </div>
+              </div>
+              <div class="col card-menu">
+                <div class="card h-50  border-primary">
+                  <img src="https://stardewvalleywiki.com/mediawiki/images/d/d2/Super_Meal.png" class="card-img-top h-50" alt="Superprato" />
+                  <div class="card-body">
+                    <h5 class="card-title">Superprato</h5>
+                    <p class="card-text">Um prato muito energizante.</p>
+                  </div>
+                  <div class="card-footer text-bg-primary">
+                    <small class="text-warning">
+                      <img src="https://stardewvalleywiki.com/mediawiki/images/thumb/1/10/Gold.png/18px-Gold.png" alt="gold"/>
+                      440 ouros.
+                    </small>
+                  </div>
+                </div>
+              </div>
+              <div class="col card-menu">
+                <div class="card h-50  border-primary">
+                  <img src="https://stardewvalleywiki.com/mediawiki/images/d/d5/Fish_Taco.png" class="card-img-top h-50" alt="Taco de peixe" />
+                  <div class="card-body">
+                    <h5 class="card-title">Taco de peixe</h5>
+                    <p class="card-text">Tem um cheiro delicioso.</p>
+                  </div>
+                  <div class="card-footer text-bg-primary">
+                    <small class="text-warning">
+                      <img src="https://stardewvalleywiki.com/mediawiki/images/thumb/1/10/Gold.png/18px-Gold.png" alt="gold"/>
+                      1000 ouros.
+                    </small>
+                  </div>
+                </div>
+              </div>
+              <div class="col card-menu">
+                <div class="card h-50  border-primary">
+                  <img src="https://stardewvalleywiki.com/mediawiki/images/9/9b/Blueberry_Tart.png" class="card-img-top h-50" alt="Torta de Mirtilo" />
+                  <div class="card-body">
+                    <h5 class="card-title">Torta de Mirtilo</h5>
+                    <p class="card-text">Sutil e refrescante.</p>
+                  </div>
+                  <div class="card-footer text-bg-primary">
+                    <small class="text-warning">
+                      <img src="https://stardewvalleywiki.com/mediawiki/images/thumb/1/10/Gold.png/18px-Gold.png" alt="gold"/>
+                      300 ouros.
+                    </small>
+                  </div>
+                </div>
+              </div>
+              <div class="col card-menu">
+                <div class="card h-50  border-primary">
+                  <img src="https://stardewvalleywiki.com/mediawiki/images/2/21/Rhubarb_Pie.png" class="card-img-top h-50" alt="Torta de ruibarbo" />
+                  <div class="card-body">
+                    <h5 class="card-title">Torta de ruibarbo</h5>
+                    <p class="card-text">Huum... picante e doce!</p>
+                  </div>
+                  <div class="card-footer text-bg-primary">
+                    <small class="text-warning">
+                      <img src="https://stardewvalleywiki.com/mediawiki/images/thumb/1/10/Gold.png/18px-Gold.png" alt="gold"/>
+                      800 ouros.
+                    </small>
+                  </div>
+                </div>
+              </div>
+              <div class="col card-menu">
+                <div class="card h-50  border-primary">
+                  <img src="https://stardewvalleywiki.com/mediawiki/images/d/d7/Tortilla.png" class="card-img-top h-50" alt="Tortilha" />
+                  <div class="card-body">
+                    <h5 class="card-title">Tortilha</h5>
+                    <p class="card-text">Pode ser acompanhada de outras comidas ou comida por si só.</p>
+                  </div>
+                  <div class="card-footer text-bg-primary">
+                    <small class="text-warning">
+                      <img src="https://stardewvalleywiki.com/mediawiki/images/thumb/1/10/Gold.png/18px-Gold.png" alt="gold"/>
+                      100 ouros.
+                    </small>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!--Cards revenues-->
+          <div class="tab-pane fade" id="menu-revenues" role="tabpanel" aria-labelledby="menu-revenues-tab" tabindex="0">
+            <div class="row row-cols-1 row-cols-md-3 g-4 align-items-center">
+              <div class="col card-menu">
+                <div class="card h-50  border-primary">
+                  <img src="https://stardewvalleywiki.com/mediawiki/images/8/8f/Hashbrowns.png" class="imagem1 card-img-top h-50" alt="receita de batata palha"/>
+                  <div class="card-body">
+                    <h5 class="card-title">Batata-palha</h5>
+                    <p class="card-text">Uma receita para fazer Batata-palha.</p>
+                  </div>
+                  <div class="card-footer text-bg-primary">
+                    <small class="text-warning">
+                      <img src="https://stardewvalleywiki.com/mediawiki/images/thumb/1/10/Gold.png/18px-Gold.png" alt="gold"/>
+                      250 ouros.
+                    </small>
+                  </div>
+                </div>
+              </div>
+              <div class="col card-menu">
+                <div class="card h-50  border-primary">
+                  <img src="https://stardewvalleywiki.com/mediawiki/images/1/12/Omelet.png" class="imagem1 card-img-top h-50" alt="receita de Omelete"/>
+                  <div class="card-body">
+                    <h5 class="card-title">Omelete</h5>
+                    <p class="card-text">Uma receita para fazer Omelete.</p>
+                  </div>
+                  <div class="card-footer text-bg-primary">
+                    <small class="text-warning">
+                      <img src="https://stardewvalleywiki.com/mediawiki/images/thumb/1/10/Gold.png/18px-Gold.png" alt="gold"/>
+                      500 ouros.
+                    </small>
+                  </div>
+                </div>
+              </div>
+              <div class="col card-menu">
+                <div class="card h-50  border-primary">
+                  <img src="https://stardewvalleywiki.com/mediawiki/images/6/6b/Pancakes.png" class="imagem1 card-img-top h-50" alt="receita de Panquecas"/>
+                  <div class="card-body">
+                    <h5 class="card-title">Panquecas</h5>
+                    <p class="card-text">Uma receita para fazer Panquecas.</p>
+                  </div>
+                  <div class="card-footer text-bg-primary">
+                    <small class="text-warning">
+                      <img src="https://stardewvalleywiki.com/mediawiki/images/thumb/1/10/Gold.png/18px-Gold.png" alt="gold"/>
+                      500 ouros.
+                    </small>
+                  </div>
+                </div>
+              </div>
+              <div class="col card-menu">
+                <div class="card h-50  border-primary">
+                  <img src="https://stardewvalleywiki.com/mediawiki/images/e/e1/Bread.png" class="imagem1 card-img-top h-50" alt="receita de Pão"/>
+                  <div class="card-body">
+                    <h5 class="card-title">Pão</h5>
+                    <p class="card-text">Uma receita para fazer Pão.</p>
+                  </div>
+                  <div class="card-footer text-bg-primary">
+                    <small class="text-warning">
+                      <img src="https://stardewvalleywiki.com/mediawiki/images/thumb/1/10/Gold.png/18px-Gold.png" alt="gold"/>
+                      250 ouros.
+                    </small>
+                  </div>
+                </div>
+              </div>
+              <div class="col card-menu">
+                <div class="card h-50  border-primary">
+                  <img src="https://stardewvalleywiki.com/mediawiki/images/d/d7/Tortilla.png" class="imagem1 card-img-top h-50" alt="receita de Tortilha"/>
+                  <div class="card-body">
+                    <h5 class="card-title">Tortilha</h5>
+                    <p class="card-text">Uma receita para fazer Tortilha.</p>
+                  </div>
+                  <div class="card-footer text-bg-primary">
+                    <small class="text-warning">
+                      <img src="https://stardewvalleywiki.com/mediawiki/images/thumb/1/10/Gold.png/18px-Gold.png" alt="gold"/>
+                      500 ouros.
+                    </small>
+                  </div>
+                </div>
+              </div>
+              <div class="col card-menu">
+                <div class="card h-50  border-primary">
+                  <img src="https://stardewvalleywiki.com/mediawiki/images/f/f4/Pizza.png" class="imagem1 card-img-top h-50" alt="receita de Pizza"/>
+                  <div class="card-body">
+                    <h5 class="card-title">Pizza</h5>
+                    <p class="card-text">Uma receita para fazer Pizza.</p>
+                  </div>
+                  <div class="card-footer text-bg-primary">
+                    <small class="text-warning">
+                      <img src="https://stardewvalleywiki.com/mediawiki/images/thumb/1/10/Gold.png/18px-Gold.png" alt="gold"/>
+                      750 ouros.
+                    </small>
+                  </div>
+                </div>
+              </div>
+              <div class="col card-menu">
+                <div class="card h-50  border-primary">
+                  <img src="https://stardewvalleywiki.com/mediawiki/images/b/b6/Maki_Roll.png" class="imagem1 card-img-top h-50" alt="receita de Rolinhos de arroz"/>
+                  <div class="card-body">
+                    <h5 class="card-title">Rolinhos de arroz</h5>
+                    <p class="card-text">Uma receita para fazer Rolinhos de arroz.</p>
+                  </div>
+                  <div class="card-footer text-bg-primary">
+                    <small class="text-warning">
+                      <img src="https://stardewvalleywiki.com/mediawiki/images/thumb/1/10/Gold.png/18px-Gold.png" alt="gold"/>
+                      1500 ouros.
+                    </small>
+                  </div>
+                </div>
+              </div>
+            </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!--Local-->
+      <section id="local" class="container text-center mb-5">
+        <!-- Button trigger modal -->
+        <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#localmodal">
+          Venha Conhecer o Sallon
+        </button>
+
+        <!-- Modal -->
+        <div
+          class="modal fade" id="localmodal" tabindex="-1" aria-labelledby="localmodalLabel" aria-hidden="true"
+        >
+          <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h1 class="modal-title fs-5" id="localmodalLabel">
+                  Estamos te esperando
+                </h1>
+                <button
+                  type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"
+                ></button>
+              </div>
+              <div class="modal-body">
+                <p>A Vila Pelicanos localizado em Stardew Valley.</p>
+                <p>O <strong> Saloon Fruta Estrelar</strong> está localizado no centro da Vila Pelicanos.</p>
+                <img
+                  style="width: 100%"
+                  src="https://stardewvalleywiki.com/mediawiki/images/thumb/2/25/Pelican_Town.png/600px-Pelican_Town.png"
+                  alt="vila pelicanos"/>
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">
+                  Fechar
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <!--Footer-->
+    <footer class="text-center bg-primary p-5 mt-5">
+      <img width="75" src="assets/images/SDV_logo.png" alt="logotipo" />
+      <p class="mt-2 fw-bolt text-light">Sallon Fruta Estrelar - Um lugar de encontro</p>
+    </footer>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
